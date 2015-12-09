@@ -10,6 +10,7 @@ class CameraSwitch : ZilchComponent
     }
     function OnKeyDown(event : KeyboardEvent)
     {
+        //Press Up arrow key key to move camera Up
         if(Zero.Keyboard.KeyIsPressed(Keys.Up))
         {
             var temp = this.Owner.Transform.Translation;
